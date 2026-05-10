@@ -14,9 +14,9 @@ build/
 venv/
 env/
 
-# Model cache (downloaded at build time, not committed)
-retrieval/faiss.index
-retrieval/metadata.pkl
+# Model cache (committed directly — too small to rebuild on free-tier Render)
+# retrieval/faiss.index
+# retrieval/metadata.pkl
 
 # Sentence transformers cache
 .cache/
